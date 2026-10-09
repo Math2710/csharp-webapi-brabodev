@@ -1,0 +1,10 @@
+﻿namespace WebAPI.Model
+{
+    public interface IEmployeeRepository
+    {
+        void Add(Employee employee);
+
+        List<Employee> get();
+        Employee? Get(int id);
+    }
+}
